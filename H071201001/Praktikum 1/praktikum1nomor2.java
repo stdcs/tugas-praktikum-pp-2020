@@ -9,6 +9,6 @@ public class praktikum1nomor2 {
         int minutes = (seconds%3600)/60;
         int sec = (seconds%3600)%60;
 
-        System.out.println(hours + ":" + minutes + ":" + sec);
+        System.out.printf("%02d:%02d:%02d", hours, minutes, sec);
     }
 }
