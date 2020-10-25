@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class praktikum1nomor2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // System.out.println("==== Program Konversi oleh Ahmad Fauzan Mansur ====\n" + "Masukkan jumlah detik yang akan dikonversi!");
+         System.out.println("==== Program Konversi oleh Ahmad Fauzan Mansur ====\n" + "Masukkan jumlah detik yang akan dikonversi!");
         int seconds = input.nextInt();
 
         int hours = seconds/3600;
