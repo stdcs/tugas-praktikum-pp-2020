@@ -12,13 +12,13 @@ public class P3Nomor2 {
 					System.out.println("Invalid input! first input must be smaller than second!");
 				}
 			} while (x >= y);
-
-			for (int i = 0; i <= x; i++) {
-				for (int j = 1; j <= y; j++) {
-					System.out.printf("%d ", j);
+			
+			for (int i = 1; i <= y; i++) {
+				if (i % 4 == 0) {
+					System.out.println(i); // println = print(.. + "\n")
+				} else {
+					System.out.print(i + " ");
 				}
-			System.out.println("");
 			}
-
 	}
 }

@@ -5,7 +5,6 @@ public class P3Nomor4 {
 			Scanner asd = new Scanner(System.in);
 			int hargaBarang = asd.nextInt();
 			int bayar = asd.nextInt();
-
 			int kembalian = bayar - hargaBarang; // estimasi kembalian
 
 			// inisialisasi uang
