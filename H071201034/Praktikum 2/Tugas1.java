@@ -18,83 +18,73 @@ class Tugas1 {
             
             if (a % 2 == 0) {
                 genap++;
-                if (a > 0) {
-                    positif++;
-                }else if (a < 0) {
-                    negatif++;
-                }
-            }else{
-                ganjil++;
-                if (a > 0) {
-                    positif++;
-                }else if (a < 0) {
-                    negatif++;
-                }
             }
+            else{
+                ganjil++;
+            }
+                if (a > 0) {
+                    positif++;
+                }else if (a < 0) {
+                    negatif++;
+                }
+            
 
             if (b % 2 == 0) {
                 genap++;
-                if (b > 0) {
-                    positif++;
-                }else if (b < 0) {
-                    negatif++;
-                }
-            }else{
-                ganjil++;
-                if (b > 0) {
-                    positif++;
-                }else if (b < 0) {
-                    negatif++;
-                }
             }
+            else {
+                ganjil++;
+            }
+
+                if (b > 0) {
+                    positif++;
+                }else if (b < 0) {
+                    negatif++;
+                }
+            
 
             if (c % 2 == 0) {
-                genap++;
-                if (c > 0) {
-                    positif++;
-                }else if (c < 0) {
-                    negatif++;
-                }
-            }else{
+                genap++;   
+            }
+            else {
                 ganjil++;
-                if (c > 0) {
-                    positif++;
-                }else if (c < 0) {
-                    negatif++;
-                }
             }
 
+                if (c > 0) {
+                    positif++;
+                }else if (c < 0) {
+                    negatif++;
+                }
+            
+
             if (d % 2 == 0) {
-                genap++;
-                if (d > 0) {
-                    positif++;
-                }else if (d < 0) {
-                    negatif++;
-                }
-            }else{
-                ganjil++;
-                if (d > 0) {
-                    positif++;
-                }else if (d < 0) {
-                    negatif++;
-                }
+                genap++;  
             }
+            else{
+                ganjil++;
+            }
+
+                if (d > 0) {
+                    positif++;
+                }else if (d < 0) {
+                    negatif++;
+                }
+            
 
             if (e % 2 == 0) {
                 genap++;
-                if (e > 0) {
-                    positif++;
-                }else if (e < 0) {
-                    negatif++;
-                }
-            }else{
-                ganjil++;
-                if (e > 0) {
-                    positif++;
-                }else if (e < 0) {
-                    negatif++;
-                }
+                
             }
+            else{
+                ganjil++;
+            }
+
+                if (e > 0) {
+                    positif++;
+                }else if (e < 0) {
+                    negatif++;
+                }
+            
             
             System.out.println(genap + " Angka Genap");
             System.out.println(ganjil + " Angka Ganjil");
