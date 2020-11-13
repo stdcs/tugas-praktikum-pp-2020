@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class P3Nomor4 {
 		public static void main(String[] args) {
 			Scanner asd = new Scanner(System.in);
+			System.out.println("Masukkan harga kemudian bayaran!");
 			int hargaBarang = asd.nextInt();
 			int bayar = asd.nextInt();
 			int kembalian = bayar - hargaBarang; // estimasi kembalian
