@@ -13,6 +13,8 @@ class P5Nomor1 {
 	static int cariFPB(int a, int b) {
 		int fpb = 0;
 		for (int i = 1; i <= a && i <= b; i++) {
+		// 15, 20
+		//  
 			if (a % i == 0 && b % i == 0) 
 				fpb = i;
 		}

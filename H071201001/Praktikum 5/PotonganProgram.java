@@ -11,26 +11,17 @@ class PotonganProgram {
 	}
 
 	public static String generateSerial(int n, int m) {
+		String str = "";
 		Random rnd = new Random();
-		StringBuilder strBuild = new StringBuilder();
 		int[][] numbers = new int[n][m];
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				numbers[i][j] = rnd.nextInt(9);
+				str += numbers[i][j];
 			}
+			str += (i == n-1) ? "" : "-";
 		}
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j <= m; j++) {
-				if (j < m) {
-					strBuild = strBuild.append(numbers[i][j]);
-				} else if (j == m) {
-					strBuild = strBuild.append(i == n - 1 ? "" : "-");
-				}
-			}
-		}
-		String str = strBuild.toString();
 		return str;
 	}
 }
