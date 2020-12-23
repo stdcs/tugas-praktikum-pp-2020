@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Nomor1 {
 	public static void main (String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -29,4 +30,5 @@ public class Nomor1 {
 		System.out.printf("#%x%s%o%c",jumlah_char*jumlah_char,palindrome,jumlah_char,simbol);
 		
 	}
+}
 }
