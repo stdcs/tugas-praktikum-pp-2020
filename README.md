@@ -52,3 +52,5 @@
 - [x] _**Satu Praktikum, Satu Folder**_.
 - [x] _**Satu Soal, Satu Class**_.
 - [x] _**Program Berjalan dengan Baik dan Benar Berdasarkan Ketentuan Tugas**_.
+- [x] _**Jika Setelah Merge kemudian Tugas Anda dihapus, berarti ada ketidak
+  sesuain format pada tugas anda**_.
