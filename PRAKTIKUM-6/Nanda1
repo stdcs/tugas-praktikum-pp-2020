@@ -1,0 +1,40 @@
+//PRAKTIKUM-6
+import java.util.Scanner;
+
+class Nanda1 {
+    public static void main(String[] args) {
+        Scanner nardi = new Scanner(System.in);
+        String a = nardi.nextLine();
+
+        String b = "";
+        for (int i = 0; i < a.length(); i++) {
+            if (i % 2 == 0) {
+                b += a.charAt(i);
+            } else {
+                b += Character.codePointAt(a, i);
+            }
+        }
+        System.out.println(b);
+        int panjang = b.length();
+        System.out.println(b.length());
+
+        double jumlah = (double) Math.ceil(panjang / 16.0);
+        int j = 0;
+        for (int i = 0; i < 16; i++) {
+            for (int k = 0; k < jumlah; k++) {
+                if (j < panjang) {
+                    System.out.print(b.charAt(j++));
+                } else {
+                    System.out.print("?");
+                }
+            }
+
+            if (i % 4 == 3) {
+                System.out.println();
+            } else {
+                System.out.print(' ');
+            }
+
+        }
+    }
+}
